@@ -32,6 +32,7 @@ public class DetailActivity extends AppCompatActivity {
         initSlider();
     }
 
+    
     private void initSlider() {
         for (Integer image : imageList) {
             TextSliderView textSliderView = new TextSliderView(this);
